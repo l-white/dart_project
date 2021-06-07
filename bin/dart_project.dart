@@ -18,6 +18,8 @@ void main() {
       }
       final random = rng.nextInt(3);
       final aiMove = Move.values[random];
+      print('You played $playerMove');
+      print('Computer played $aiMove');
       if (playerMove == aiMove){
         print("It's a draw");
       } else if (playerMove == Move.rock && aiMove == Move.scissors ||
