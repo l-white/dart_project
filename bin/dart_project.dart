@@ -27,7 +27,6 @@ void main() {
       } else {
         print('Computer wins.');
       }
-      print('You selected $input');
     } else if (input == 'q'){
       break;
     } else {
